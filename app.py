@@ -5,7 +5,7 @@ import google.generativeai as genai
 st.set_page_config(page_title="AI Hiring Assistant")
 st.title("🤖 AI Hiring Assistant")
 
-genai.configure(api_key=st.secrets[GEMINI_API_KEY"])
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
 # ---------- STEP 1: Resume Parser ----------
 st.header("Step 1: Resume Parser")
